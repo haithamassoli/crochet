@@ -51,10 +51,10 @@ Execution note: before each milestone, read the relevant guides in `node_modules
 **Done =** installs from the popup on Android; iOS shows correct instructions.
 
 ## M7 — Content, SEO, launch
-- [ ] Author real content: curate videos + write Arabic intros for all lessons (long pole — start in parallel from M3)
-- [ ] Write full reference pages, glossary, and resource list
-- [ ] Per-page Arabic metadata, Open Graph, sitemap
-- [ ] Lighthouse pass on mobile (perf/a11y/SEO); embeds stay lazy
-- [ ] Final RTL audit: spacing, mirrored icons, numerals
+- [x] Author real content: curate videos + write Arabic intros for all lessons *(31/31 lessons: videos found via search, verified twice via YouTube oEmbed; intros rewritten what/why/tips)*
+- [x] Write full reference pages, glossary, and resource list *(yarn/hooks/tools/glossary authored; 23 curated external resources)*
+- [x] Per-page Arabic metadata, Open Graph, sitemap *(generateMetadata on lessons + reference, root OG, sitemap.ts + robots.ts; set NEXT_PUBLIC_SITE_URL at deploy)*
+- [x] Lighthouse pass on mobile (perf/a11y/SEO); embeds stay lazy *(a11y/BP/SEO all 100; LCP 140ms, CLS 0.00 on prod build)*
+- [x] Final RTL audit: spacing, mirrored icons, numerals *(zero physical-direction classes; visual pass on all page types, light+dark)*
 
 **Done =** real content live, Lighthouse green, site indexable.
